@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name        New script - arizona-rp.com
+// @namespace   Violentmonkey Scripts
+// @match       https://forum.arizona-rp.com/*
+// @grant       none
+// @version     1.1
+// @author      -
+// @description 11.12.2022, 01:55:59
+// ==/UserScript==
+
+// https://xenforo.com/community/help/bb-codes/
 // https://xenforo.com/community/help/bb-codes/
 
 window.button_id = 0;
@@ -36,8 +47,7 @@ addbtnscript('док-ва',"[CENTER][FONT=verdana]Приветствую<br>До
 addbtnscript('будет наказан',"[CENTER][FONT=verdana]Приветствую<br>Игрок будет наказан<br>Закрыто.[/FONT][/CENTER]");
 addbtnscript('ответ',"[CENTER][FONT=verdana]Приветствую.<br><br><br>[/FONT][/CENTER]");
 addbtnscript('test',"[CENTER][FONT=verdana][GROUPS=78]<br><br>[/GROUPS][/FONT][/CENTER]");
-addbtnscript('test',"[CENTER][FONT=verdana][GROUPS=78]<br><br>[/GROUPS][/FONT][/CENTER]");
-addbtnscript('test',"[CENTER][FONT=verdana][GROUPS=78]<br><br>[/GROUPS][/FONT][/CENTER]");
+
 });
 
 })
@@ -106,7 +116,7 @@ $('.button--icon--preview').after('<br><br>');
 
 
 // Закреп+префикс ожидание
-function button_wait(){ 
+function button_wait(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
@@ -130,7 +140,7 @@ if (document.getElementsByClassName('p-title-value')[0].getElementsByTagName('sp
 }
 
 // Закреп+префикс на рассм
-function button_narasm(){ 
+function button_narasm(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
@@ -154,7 +164,7 @@ if (document.getElementsByClassName('p-title-value')[0].getElementsByTagName('sp
 }
 
 // Закрыть+рассмотрено
-function button_closerassm(){ 
+function button_closerassm(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
@@ -178,7 +188,7 @@ if (document.getElementsByClassName('p-title-value')[0].getElementsByTagName('sp
 }
 
 // Закрыть+отказано
-function button_closeoktaz(){ 
+function button_closeoktaz(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
@@ -202,7 +212,7 @@ if (document.getElementsByClassName('p-title-value')[0].getElementsByTagName('sp
 }
 
 // обрабатывается
-function button_obrabotka(){ 
+function button_obrabotka(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
@@ -226,7 +236,7 @@ if (document.getElementsByClassName('p-title-value')[0].getElementsByTagName('sp
 }
 
 // на обработке
-function button_obrabotkat(){ 
+function button_obrabotkat(){
   var str = $('div.fr-element.fr-view').text();
  if (str.length > 0){
         $(".button--icon--reply").trigger('click');
