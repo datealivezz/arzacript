@@ -3,12 +3,11 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://forum.arizona-rp.com/*
 // @grant       none
-// @version     1.1
+// @version     1.0.1
 // @author      -
 // @description 11.12.2022, 01:55:59
 // ==/UserScript==
 
-// https://xenforo.com/community/help/bb-codes/
 // https://xenforo.com/community/help/bb-codes/
 
 window.button_id = 0;
